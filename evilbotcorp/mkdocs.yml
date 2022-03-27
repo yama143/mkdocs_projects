@@ -3,10 +3,33 @@ site_name: Evil Bot Corp
 
 nav:
     - Home: index.md
-    - Make Bots: bots.md                
+    - Make Bots: bots.md  
+    - Random: random.md
+    - Tags: tags.md              
     - About: about.md
         
 theme:
+    features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs 
+    - header.autohide
+    - content.code.annotate # (1) 
+    icon:
+      logo: material/robot-angry
+    palette: 
+      - scheme: slate
+        toggle:
+          icon: material/lightbulb
+          name: Switch to light mode
+        primary: black
+        accent: red           
+      - scheme: default
+        toggle:
+          icon: material/lightbulb-outline
+          name: Switch to light mode
+        primary: black
+        accent: red                
     name: material
     nav_style: dark
     analytics:
@@ -17,8 +40,48 @@ theme:
         - powershell
         - python    
 
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/evilbotcorp
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  analytics:
+    provider: google
+    property: G-M9XK9BXB2G      
+
+plugins:
+  - search:
+  - tags:
+      tags_file: tags.md  
+      # prebuild_index: true  
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tablesort.js
 
 markdown_extensions:
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
   - admonition
   - pymdownx.details
-  - pymdownx.superfences        
+  - pymdownx.superfences 
+  - attr_list      
+  - abbr
+  - pymdownx.snippets  
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true   
+  
+  
+     

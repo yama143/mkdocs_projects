@@ -1,14 +1,17 @@
-# Welcome to Evil Bot Corp
+# Bots doing evil good.
 
 
-!!! warning
-    Bots doing evil ahead.
+??? warning
+    Proceed at your own risk.
 
-!!! note
+
+ 
+
+<!-- !!! note
     My son drew this bot so you would know what they look like.
     ![Screenshot](img/evilbot.png)
 
-        No more questions.
+        No more questions. -->
 
 
 <!-- ## Commands

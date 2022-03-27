@@ -1,3 +1,10 @@
+---
+tags:
+  - bots
+  - python
+  - evil
+---
+
 # Make Bots
 
 ## Get started making a bot

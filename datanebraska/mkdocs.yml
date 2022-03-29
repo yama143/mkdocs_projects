@@ -1,43 +1,49 @@
-site_name: Evil Bot Corp
-site_url: evilbotcorp.com
-
+site_name: Data Nebraska
+site_url: https://datanebraska.com
 nav:
     - Home: index.md
-    - Make Bots: bots.md  
-    - Random: random.md
+    - Campaign Finance: 
+      - Campaign Finance Home: campaign_finance/index.md
+      - Filers: campaign_finance/filers.md
+      - Payors: campaign_finance/payors.md
+      - Payees: campaign_finance/payees.md
+      - Pillen: campaign_finance/pillen.md
+    - Twitter Bots: bots.md  
+    # - Random: random.md
     - Tags: tags.md              
     - About: about.md
         
 theme:
+    name: material
     features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs 
     - header.autohide
     - content.code.annotate # (1) 
-    favicon: assets/material/robot-angry    
+    # favicon: assets/material/robot-angry    
     icon:
-      logo: material/robot-angry
-    # font:
-    #   text: Ubuntu
-    #   # text: Eater
-    #   # text: Bangers
-    #   # text: Press Start 2P
-    #   code: Ubuntu Mono
+      logo: material/corn
+    font:
+      text: Roboto
+#     #   # text: Eater
+#     #   # text: Bangers
+#     #   # text: Press Start 2P
+      code: Roboto Mono
     palette: 
       - scheme: slate
         toggle:
-          icon: material/lightbulb
+          icon: material/weather-sunny
           name: Switch to light mode
-        primary: black
-        accent: red           
+        primary: blue
+        accent: red          
       - scheme: default
         toggle:
-          icon: material/lightbulb-outline
+          icon: material/weather-night
           name: Switch to light mode
-        primary: black
-        accent: red                
-    name: material
+        primary: blue
+        accent: red              
+
     nav_style: dark
     analytics:
         gtag: G-M9XK9BXB2G        
@@ -50,7 +56,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/evilbotcorp
+      link: https://twitter.com/datanebraska
   consent:
     title: Cookie consent
     description: >- 
@@ -69,8 +75,11 @@ plugins:
       # prebuild_index: true  
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tablesort.number.js
+  - javascripts/tablesort.date.js
   - javascripts/tablesort.js
-  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.number.js
+  
+
 
 markdown_extensions:
   - def_list

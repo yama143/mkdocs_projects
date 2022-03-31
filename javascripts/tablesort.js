@@ -4,6 +4,3 @@ document$.subscribe(function() {
       new Tablesort(table)
     })
   })
-
-
-

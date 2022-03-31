@@ -1,5 +1,5 @@
 site_name: Evil Bot Corp
-site_url: evilbotcorp.com
+site_url: https://evilbotcorp.com
 
 nav:
     - Home: index.md

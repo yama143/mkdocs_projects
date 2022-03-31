@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
-         <lastmod>2022-03-27</lastmod>
+         <loc>https://evilbotcorp.com/</loc>
+         <lastmod>2022-03-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-03-27</lastmod>
+         <loc>https://evilbotcorp.com/about/</loc>
+         <lastmod>2022-03-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-03-27</lastmod>
+         <loc>https://evilbotcorp.com/bots/</loc>
+         <lastmod>2022-03-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-03-27</lastmod>
+         <loc>https://evilbotcorp.com/random/</loc>
+         <lastmod>2022-03-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-03-27</lastmod>
+         <loc>https://evilbotcorp.com/tags/</loc>
+         <lastmod>2022-03-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-03-27</lastmod>
+         <loc>https://evilbotcorp.com/tags/</loc>
+         <lastmod>2022-03-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
